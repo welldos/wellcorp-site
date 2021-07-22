@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+    }
+
+.h-menu ul{
+    opacity: 100%;
+    width: 105%;
+    list-style: none;
+    margin: -640px -150;
+    padding: 0px 0;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;;
+}
+.h-menu li{
+    display: inline;
+    float: right;
+    position:relative;
+    
+}
+
+.h-menu li a{
+    display: block;
+    color: black;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+.h-menu li a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10em;
+    padding: 0.8em 2.2em;
+}
+
+.fundo{
+    background-color:blue ;
+    margin: 850PX 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:1350px;  
+}
